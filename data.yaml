@@ -1,0 +1,10 @@
+# data.yaml - VisionNote dataset config
+# Point train/val at your labeled image folders (YOLO format).
+# If exporting from Roboflow, this file is generated for you automatically -
+# just replace this template with theirs, or edit paths below to match.
+
+train: images/train
+val: images/val
+
+nc: 6   # number of classes
+names: ["10", "20", "50", "100", "200", "500"]

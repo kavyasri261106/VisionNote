@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Model / training artifacts
+runs/
+*.pt
+!model/trained_model.pt
+
+# Dataset (usually too large for git; consider Git LFS or a download script instead)
+dataset/images/
+dataset/labels/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
