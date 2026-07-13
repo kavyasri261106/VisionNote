@@ -3,11 +3,10 @@
 ## Team Details
 | Role | Name | GitHub |
 |---|---|---|
-| Team Lead | *(fill in)* | *(fill in)* |
-| Member | *(fill in)* | *(fill in)* |
-| Member | *(fill in)* | *(fill in)* |
+| Team Lead | *Karthiga K* | *karthiga* |
+| Member | *Kavya Sri D* | *kavyasri261106* |
+| Member | *Shahidha Banu S* | *shahidhabanu* |
 
-*(Update this table with your actual team before submission — required by the challenge documentation rules.)*
 
 ## Problem Statement
 Visually impaired individuals often cannot independently verify the denomination of a currency note, making them dependent on others during cash transactions. This creates a risk of mistakes, fraud, and loss of financial independence.
@@ -40,7 +39,7 @@ A Streamlit-based application that:
 - Target: ~300–500 images per class (sufficient for a hackathon-grade prototype).
 - Augmentation applied: rotation, flipping (where orientation-appropriate), brightness/contrast adjustment, scaling.
 - Labeled in [Roboflow](https://roboflow.com) or LabelImg, exported in YOLOv8 format.
-- *(If time is short: Roboflow Universe has existing public Indian currency detection datasets that can be forked and fine-tuned, then supplemented with your own photos.)*
+
 
 ## Methodology / Model Architecture
 - **Base model:** YOLOv8n (nano) — chosen for its speed and small footprint, making it suitable for real-time webcam inference on modest hardware.
